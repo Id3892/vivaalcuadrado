@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIVE AL CUADRADO</title>
+    
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- swiper css link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- Link css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- animaciones -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!--=====================================
+                    HEADER
+    ======================================-->
+    <header class="header" data-aos="zoom-out-right" data-aos-duration="5000">
+
+        <a href="#" class="logo"> 
+            <img src="img/Logo2.jpeg" alt="VIVEAL2">
+        </a>
+        <nav class="navbar">
+            <a href="#home">Inicio</a>
+            <a href="#about">Nosotros</a>
+            <a href="#blog">Prototipo</a>
+            <a href="#location">Ubícanos</a>
+        </nav>
+    </header>
+    <!-- aqui termina seccion de header -->
+
+<!-- empieza la pagina -->
+
+    <!--=====================================
+                    HOME
+    ======================================-->
+    <section class="home" id="home">  
+        <img src="img/Fondo3.jpg" alt="" class="background-image">  
+        <div class="content">
+            <div class="info">
+                <h1>BIENVENIDO A VIVE AL CUADRADO</span></h1>
+                <p>"No creemos en UN FINAL sino en un HASTA PRONTO"</p>
+                <a href="#pqviveal2" class="btn-mas">
+                    <i class="fa-solid fa-circle-chevron-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--=====================================
+                    PORQUE
+    ======================================-->
+    <section class="pqviveal2" id="pqviveal2">
+        <h1 class="heading" data-aos="fade-up" data-aos-duration="2000"> 01. ¿POR QUÉ ELEGIR VIVE AL CUADRADO? </h1>
+        <div class="row" data-aos="fade-up" data-aos-duration="2000">
+        <h5>Nos basamos en 5 dimensiones que ayudarán a mejorar su desarrollo personal:</h5>    
+            <div class="info-pqviveal2">
+                <table>
+                    <tr>
+                        <td>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <h3>Indagación</h3>
+                            <p>Permite autoconocerte y recopilar datos que permitirán tu desarrollo personal.</p>
+                        </td>
+                        <td>
+                            <i class="fa-solid fa-hat-cowboy"></i>
+                            <h3>Exploración</h3>
+                            <p>Permite descubrir aspectos personales que aún no tenías en cuenta.</p>
+                        </td>
+                        <td>
+                            <i class="fa-solid fa-scale-balanced"></i>
+                            <h3>Comparación</h3>
+                            <p>Ayuda a canalizar las inquietudes que tienen con tu entorno social y personal.</p>
+                        </td>
+                        <td>
+                            <i class="fa-solid fa-scale-unbalanced-flip"></i>
+                           <h3>Asimilación</h3>
+                           <p>Permite poder adaptarse ante cualquier situación.</p>
+                        </td>
+                        <td>
+                            <i class="fa-solid fa-heart"></i>
+                           <h3>Aceptación</h3>
+                           <p>Logra alcanzar la meta requerida para poder seguir en la etapa de autovaloración con mayor seguridad.</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- aqui termina seccion de PORQUE -->
+
+    <!--=====================================
+                    NOSOTROS
+    ======================================-->
+    <section class="about" id="about">
+    </div>
+        <h1 class="heading" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000"> 02. Nosotros </h1>
+        <div class="row" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">
+            <div class="image">
+                <img src="img/Nosotros.jpeg" alt="" id="nosotros-img">
+            </div>
+            <div class="content">
+                <h3>¿Quiénes somos?</h3>
+                <p>Somos una empresa que se encarga de que la persona alcance la autovaloración satisfactoriamente mediante nuestro prototipo que tiene niveles de autoayuda y crecimiento personal implementando estrategias necesarias para lograr el objetivo de elevar los niveles de autoestima.</p>
+                <br>
+                <a href="#modal" class="btn">Leer más</a>
+            </div>
+            <div class="modal" id="modal">
+                <div class="contenido">
+                    <h2>MISIÓN</h2>
+                    <p>Ayudar a las personas a alcanzar la autovaloración satisfactoria mediante estrategias de autoayuda y crecimiento personal, elevando sus niveles de autoestima.</p>
+                    <br>
+                    <h2>VISIÓN</h2>
+                    <p>Ser una empresa reconocida a nivel nacional e internacional, promoviendo el crecimiento personal y la autoestima a través de nuestro innovador prototipo de autoayuda.</p>
+                    <br>
+                    <a href="#about" class="cerrar">Cerrar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+    <!-- aqui termina seccion de nosotros -->
+
+    <!--=====================================
+                    CONTADOR
+    ======================================-->
+    <section class="contadors" id="contadors">
+        <div class="contador-container">
+            <div class="contador" id="usuarios">
+                <div class="valor" id="usuarios-valor" data-count="100" data-suffix="+">100+</div>
+                <p>Total de Usuarios</p>
+            </div>
+            
+            <div class="contador" id="sesiones">
+                <div class="valor" id="sesiones-valor" data-count="8" data-suffix=" de cada 10">8 de cada 10</div>
+                <p>Recomiendan Nuestro Producto</p>
+            </div>
+        
+            <div class="contador" id="ejercicios">
+                <div class="valor" id="ejercicios-valor" data-count="100%" data-suffix="%">100%</div>
+                <p>Recomendable</p>
+            </div>
+
+            <div class="contador" id="ns">
+                <div class="valor" id="ns-valor" data-count="95%" data-suffix="%">95%</div>
+                <p>De los Consumidores son Adolescentes y Jóvenes Adultos</p>
+            </div>
+        </div>
+    </section>
+    <!-- aqui termina seccion de contador -->
+
+    <!--=====================================
+                    PROTOTIPO
+    ======================================-->
+    <section class="blog" id="blog">
+        <h1 class="heading" data-aos="fade-up" data-aos-duration="2000"> 03. PROTOTIPO </h1>
+        <div class="row" data-aos="fade-up" data-aos-duration="2000">
+        <div class="image">
+            <img src="img/Prototipo.jpeg" alt="" id="prototipo-img">
+        </div>
+        <div class="content">
+            <p>Es un producto transportable, liviano y lúdico.</p>
+            <br>
+        </div>
+    </section>
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+    
+    <!-- aqui termina seccion de entrenamientos -->
+
+    <!--=====================================
+                    UBÍCANOS
+    ======================================-->
+    <section class="location" id="location">
+        <h1 class="heading" data-aos="fade-up" data-aos-duration="2000"> 04. UBÍCANOS </h1>
+        <div class="row" data-aos="fade-up" data-aos-duration="2000">
+        <!-- Mapa -->
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3899.809619684985!2d-76.97464592610139!3d-12.19335374464504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b9a26836ac01%3A0x4fd233c0d43ca479!2sUniversidad%20Tecnol%C3%B3gica%20del%20Per%C3%BA%20UTP!5e0!3m2!1ses-419!2spe!4v1721039107491!5m2!1ses-419!2spe" 
+                width="600"
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe> 
+        </div>
+        </div>
+    </section>
+    <!-- aqui termina seccion de ubícanos -->
+
+    <!--=====================================
+                    FOOTER
+    ======================================-->
+    <section class="footer" data-aos="fade-down"
+     data-aos-duration="3000">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Dirección:</h3>
+                <p>Ctra. Panamericana Sur km 16, Villa EL Salvador 15842</p>
+                <p>Lima, Perú</p>
+                <div class="share">
+                    <a href="https://api.whatsapp.com/send?phone=962530772&text=Hola%20deseo%20m%C3%A1s%20informaci%C3%B3n%20sobre%20su%20prototipo" class="fab fa-whatsapp" target="_blank"></a>
+                    <a href="https://www.instagram.com/vive_alcuadrado?igsh=a2xpNjFveTlnY21w" class="fab fa-instagram" target="_blank"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Envíanos un correo:</h3>
+                <a href="#" class="link">info@vivealcuadrado.pe</a>
+            </div>
+
+            <div class="box">
+                <h3>Llámanos:</h3>
+                <p>Telélefono: (01) 258-6928</p>
+                <p>Celular: (+51) 962530772</p>
+            </div>
+
+            <div class="box">
+                <h3>Horario:</h3>
+                <p>Lunes - Viernes de 8:00am - 10:00pm<br>
+                   Sábados de 9:00am - 8:00pm  
+                </p>
+            </div>
+        </div>
+
+        <div class="credit"><span>Página creada por Idania </span>¡Todos los derechos reservados!</div>
+    </section>
+    <!-- aqui termina seccion de footer -->
+
+    <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+    <!-- animacion js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+    AOS.init();
+    </script>
+</body>
+</html>
